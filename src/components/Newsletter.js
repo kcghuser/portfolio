@@ -58,7 +58,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
               items: 1
             },
             desktop: {
-              breakpoint: { max: 3000, min: 1024 },
+              breakpoint: { max: 3000, min: 1524 },
               items: 1
             },
             tablet: {
@@ -66,7 +66,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
               items: 1
             },
             mobile: {
-              breakpoint: { max: 464, min: 0 },
+              breakpoint: { max: 464, min: 400 },
               items: 1
             }
           }}
@@ -75,19 +75,19 @@ export const Newsletter = ({ status, message, onValidated }) => {
         >
           <div className="item">
             <h5>VSCode Setup</h5>
-            <p>
+            <p className="dev-setup">
               I use **VSCode** as my primary code editor, equipped with essential extensions like Prettier, ESLint, and Live Server. I prefer a clean, dark theme with minimal distractions, helping me focus on writing efficient code.
             </p>            
           </div>
           <div className="item">
             <h5>Terminal Setup</h5>
-            <p>
+            <p className="dev-setup">
               I rely on the integrated terminal in VSCode for a seamless workflow. It is customized for clarity and ease of use, ensuring I can quickly run commands and navigate my projects.
             </p>
           </div>
           <div className="item">
             <h5>Font Preference</h5>
-            <p>
+            <p className="dev-setup">
               For readability, I use **Fira Code**—a programming font that supports ligatures. This helps improve the clarity of my code, making it easier to understand complex expressions.
             </p>
           </div>
