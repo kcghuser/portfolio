@@ -505,6 +505,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #121212;
   opacity: 0.8;
 }
+.proj-link{
+  color: #D98FB3;
+}
+  .proj-link:hover {
+  color: #d3d3d3;
+}
 .contact form button {
   font-weight: 700;
   color: #000;
@@ -616,3 +622,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
