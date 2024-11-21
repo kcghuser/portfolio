@@ -76,7 +76,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
           <div className="item">
             <h5>VSCode Setup</h5>
             <p className="dev-setup">
-              I use **VSCode** as my primary code editor, equipped with essential extensions like Prettier, ESLint, and Live Server. I prefer a clean, dark theme with minimal distractions, helping me focus on writing efficient code.
+              I use VSCode as my primary code editor, equipped with essential extensions like Prettier, ESLint, and Live Server. I prefer a clean, dark theme with minimal distractions, helping me focus on writing efficient code. 
             </p>            
           </div>
           <div className="item">
@@ -88,7 +88,7 @@ export const Newsletter = ({ status, message, onValidated }) => {
           <div className="item">
             <h5>Font Preference</h5>
             <p className="dev-setup">
-              For readability, I use **Fira Code**—a programming font that supports ligatures. This helps improve the clarity of my code, making it easier to understand complex expressions.
+              For my font preference I use the same font that came with visual studios. I have gotten used to the original style, but I am open to a variety of different styles.
             </p>
           </div>
         </Carousel>
